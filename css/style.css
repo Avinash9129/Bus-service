@@ -1,0 +1,208 @@
+/*navbar*/
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+
+ul.topnav li {float: left;
+padding: auto }
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Kodchasan', sans-serif;
+
+}
+
+ul.topnav li a.active {background-color: #fff;}
+
+ul.topnav li.right {float: right;}
+/*----*/
+
+
+/*main*/
+.main{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #f8f8f8;
+}
+.box{
+    padding: 10%;
+    width: 60%;
+    margin: auto;
+}
+.box-content{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    overflow: hidden;
+    margin: auto;
+    background-color: #222;
+    max-width: 500px;
+    border-radius: 10px;
+    font-family: 'Neucha', cursive;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+.btn{
+    background-color: rgba(231,116,111,0.9); 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
+.button{
+    background-color: rgba(231,116,111,0.9); 
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: 80%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 8px 0;
+    font-family: 'Neucha', cursive;
+    
+}
+.btn:hover{
+    background-color: rgba(255,255,255,0.9);
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+/*---------*/
+
+/*services*/
+.services{
+    background-color: rgb(244,245,247);
+    height: 600px;
+    padding: 80px 20px;
+}
+
+div.card {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+div.header {
+    padding: 10px;
+}
+
+div.container {
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'K2D', sans-serif;
+}
+h4{
+    font-family: 'Kodchasan', sans-serif;
+}
+/*-----------*/
+
+/*form*/
+.form{
+    padding: 10%;
+    width: 60%;
+    margin: auto;
+}
+.form-content{
+    padding: 4%;
+    overflow: hidden;
+    margin: auto;
+    background-color: #222;
+    border-radius: 10px;
+    font-family: 'Neucha', cursive;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+a#form{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    background:transparent;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+input[type=text],input[type=password],input[type=email],textarea,input[type=phone],select,input[type=date]{
+    width: 80%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+}
+
+
+input[type=submit]:hover,input[type=button]:hover{
+    background-color: #ccc;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*-----------*/
+
+/*contact*/
+.contact{
+    padding-top:10%;
+    padding-bottom: 35%;
+    margin: auto;
+}
+.contact-left{
+    float: left; 
+    width: 50%; 
+    padding-left: 180px;
+    padding-top: 2%;
+    font-family: 'Neucha', cursive;
+    font-size: 24px;
+    font-weight:700;
+    border-right: 5px solid black;
+}
+/*---------*/
+
+/*footer*/
+footer{
+    padding-top:25px;
+    background-color: #111;
+    color: #ccc;
+    width: 100%;
+    min-height: 70px;
+    font-family: 'K2D', sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer{
+    padding-top:25px;
+    background-color: #111;
+    color: #ccc;
+    width: 100%;
+    min-height: 70px;
+    font-family: 'K2D', sans-serif;
+}
+/*-----------*/
